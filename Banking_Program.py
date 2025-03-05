@@ -16,7 +16,7 @@ def withdraw(balance):
     amount = int(input("Enter Your Amount to be Withdrawn: "))
 
     if amount > balance:
-        print("Insufficient Balance")
+        print("Insufficient Balance!")
         return 0
     elif amount < 0:
         print("That's not valid!")
